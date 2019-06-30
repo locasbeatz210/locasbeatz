@@ -1,0 +1,19 @@
+html, body, header, #intro{
+	height: 100%;
+	margin: 0;
+}
+
+.top-nav-collapse{
+	background-color: #212121;
+}
+
+@media (max-width: 768px) {
+	.navbar:not(.top-nav-collapse){
+		background-color: #212121;
+	}
+}
+
+.nav-item-subline:hover{
+	border-bottom: 3px solid #ddd;
+	margin-bottom: -3px;
+}
